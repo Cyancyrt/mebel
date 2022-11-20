@@ -1,0 +1,48 @@
+:root{
+  /* color */
+  --primaryColor : #383838;
+  --secondaryColor : #DDC190;
+
+  /* font */
+  --mainFont: 'Open Sans', sans-serif;
+  --headingFont: 'Merriweather', serif;
+}
+
+body{
+  font-family: var(--mainFont);
+  background-color: var(--primaryColor);
+
+   
+}
+.heading{
+  font-family: var(--headingFont);
+  font-size: 24px;
+  font-weight: 700;
+}
+.subheading{
+  font-weight:300;
+}
+
+/* Navbar */
+.navbar{
+  background-color: var(--primaryColor) !important;
+}
+
+.navbar-brand{
+  font-family: var(--headingFont);
+  font-weight: 900;
+}
+.navbar-brand span{
+  color: var(--secondaryColor);
+}
+.nav-link{
+  font-family: var(--headingFont);
+}
+.nav-link.active{
+  font-weight: 700;
+  color: var(--secondaryColor) !important;
+}
+.icons-home i{
+  font-size: 1.8rem;
+  color: var(--secondaryColor);
+}

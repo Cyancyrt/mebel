@@ -1,0 +1,148 @@
+:root{
+    /* color */
+    --primaryColor : #383838;
+    --secondaryColor : #DDC190;
+
+    /* font */
+    --mainFont: 'Open Sans', sans-serif;
+    --headingFont: 'Merriweather', serif;
+}
+
+body{
+    font-family: var(--mainFont);
+    background-color: var(--primaryColor);
+
+
+}
+.heading{
+    font-family: var(--headingFont);
+    font-size: 24px;
+    font-weight: 700;
+}
+.subheading{
+    font-weight:300;
+}
+
+/* Navbar */
+.navbar{
+    background-color: var(--primaryColor) !important;
+}
+
+.navbar-brand{
+    font-family: var(--headingFont);
+    font-weight: 900;
+
+}
+.navbar-brand span{
+    color: var(--secondaryColor);
+}
+.nav-link{
+
+    font-family: var(--headingFont);
+}
+.nav-link.active{
+    font-weight: 700;
+    color: var(--secondaryColor) !important;
+}
+.cart i{
+    font-size: 1.8rem;
+    margin: 10px;
+    color: var(--secondaryColor);
+}
+
+.icons-home i{
+    font-size: 1.8rem;
+    color: var(--secondaryColor);
+}
+
+.font h4,th{
+    color: white;
+}
+
+/*image*/
+#imageUpload
+{
+    display: none;
+}
+
+#profileImage
+{
+    cursor: pointer;
+}
+
+/* login form */
+.form-control, .btn {
+    border-radius: 2px;
+}
+
+.image img{
+    cursor: pointer;
+}
+
+.home{
+    background-color: var(--primaryColor);
+    height:650px;
+    padding-top: 10rem;
+  }
+  .home .heading{
+    color: var(--secondaryColor);
+  }
+  .btn-home .btn-buy{
+    background-color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    font-weight: 700;
+  }
+  .btn-home .btn-learn{
+    border:2px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    font-weight: 700;
+  }
+
+  /* about */
+  .about .heading{
+    color: var(--secondaryColor);
+  }
+
+  .about .content h3 {
+    color: var(--secondaryColor);
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .about img{
+    width: 2000px;
+  }
+
+  .about .content ul li {
+    padding: 0 0 8px 26px;
+    position: relative;
+  }
+
+  .about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: #ffc451;
+  }
+
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+
+
+
+
+/*
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+} */
+/* moda */

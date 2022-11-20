@@ -1,0 +1,40 @@
+:root{
+    /* color */
+    --primaryColor : #d1c0c0;
+    --secondaryColor : #14d2f8;
+
+    /* font */
+    --mainFont: 'Open Sans', sans-serif;
+    --headingFont: 'Merriweather', serif;
+}
+
+body{
+    font-family: var(--mainFont);
+    background-color: var(--primaryColor);
+    margin-left: 150px;
+
+}
+.heading{
+    font-family: var(--headingFont);
+    font-size: 24px;
+    font-weight: 700;
+}
+.subheading{
+    font-weight:300;
+}
+
+.sidebar {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    background-color: var(--secondaryColor);
+    }
+
+    .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    }
